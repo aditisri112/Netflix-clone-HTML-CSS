@@ -327,3 +327,83 @@ footer .questions{
     color:gray;
     margin: auto;
 }
+
+@media (max-width: 480px) {
+  nav img{
+    width: 80px;
+  }
+
+  nav button{
+    font-size: 12px;
+    padding: 5px 8px;
+  }
+
+  .text> :first-child{
+    font-size: 24px;
+  }
+
+  .text> :nth-child(2){
+    font-size: 14px;
+  }
+
+  .poster{
+    width: 120px;
+    height: 170px;
+  }
+
+  .feature-text h2{
+    font-size: 20px;
+  }
+
+  .faq h2{
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 768px) {
+  nav{
+    max-width: 95vw;
+  }
+
+  nav img{
+    width: 100px;
+  }
+
+  .text> :first-child{
+    font-size: 32px;
+  }
+
+  .text> :nth-child(2){
+    font-size: 16px;
+  }
+
+  .text > div{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text input,
+  .text button{
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .feature-card{
+    flex-direction: column;
+    text-align: center;
+    padding: 25px;
+  }
+
+  .feature-text h2{
+    font-size: 26px;
+  }
+
+  .poster{
+    width: 150px;
+    height: 210px;
+  }
+
+  .faq{
+    max-width: 90vw;
+  }
+}
